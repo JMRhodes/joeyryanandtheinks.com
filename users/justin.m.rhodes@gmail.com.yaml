@@ -1,0 +1,11 @@
+name: 'Justin Rhodes'
+super: true
+roles:
+  - user_management
+id: bd801327-bdc8-4cf3-8a53-e1d6b5b13e89
+password_hash: $2y$10$KO/mzYtIdcwF1S7Zmx5WPeChZ8EnRCIPOB3tKxnLMNj/CTyq1tYne
+preferences:
+  favorites:
+    -
+      name: 'Pages ‹ Collections'
+      url: collections/pages
