@@ -1,0 +1,4 @@
+name: joeyryanandtheinks
+recipe: laravel
+config:
+  webroot: ./public
