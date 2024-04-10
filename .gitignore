@@ -2,7 +2,8 @@
 /public/hot
 /public/storage
 /public/vendor/statamic
-/public/img/
+/public/img/*
+/public/assets
 /public/static/
 /storage/*.key
 /vendor

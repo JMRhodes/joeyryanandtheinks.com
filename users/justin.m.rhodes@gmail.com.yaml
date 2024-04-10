@@ -2,3 +2,11 @@ name: 'Justin Rhodes'
 super: true
 id: f950bfa3-14cc-4364-8541-2df60b084b8b
 password_hash: $2y$10$DeVgnKIKlVuUMZHYBoh7JeHXviCCSgKVLuEA8iphnczjYgOTz0/g6
+preferences:
+  favorites:
+    -
+      name: 'Albums ‹ Collections'
+      url: collections/album
+  assets:
+    assets:
+      mode: grid
