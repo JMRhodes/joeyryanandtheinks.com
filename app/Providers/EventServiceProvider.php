@@ -2,12 +2,10 @@
 
 namespace App\Providers;
 
-use App\Listeners\PreventDeletingMounts;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Event;
-use Statamic\Events\EntryDeleting;
 
 class EventServiceProvider extends ServiceProvider
 {
@@ -19,9 +17,6 @@ class EventServiceProvider extends ServiceProvider
     protected $listen = [
         Registered::class => [
             SendEmailVerificationNotification::class,
-        ],
-        EntryDeleting::class => [
-            PreventDeletingMounts::class,
         ],
     ];
 

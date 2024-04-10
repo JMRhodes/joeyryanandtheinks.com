@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d110c3dc96c5a835140b82f0deeae2e3",
+    "content-hash": "0b2519924c8da1a05b63c540606b3b89",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -2072,16 +2072,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.48.4",
+            "version": "v10.48.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7e0701bf59cb76a51f7c1f7bea51c0c0c29c0b72"
+                "reference": "a8b682e1371338848637f638aedaef2f7607d36f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7e0701bf59cb76a51f7c1f7bea51c0c0c29c0b72",
-                "reference": "7e0701bf59cb76a51f7c1f7bea51c0c0c29c0b72",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a8b682e1371338848637f638aedaef2f7607d36f",
+                "reference": "a8b682e1371338848637f638aedaef2f7607d36f",
                 "shasum": ""
             },
             "require": {
@@ -2275,7 +2275,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-21T13:36:36+00:00"
+            "time": "2024-04-09T14:48:50+00:00"
         },
         {
             "name": "laravel/helpers",
@@ -2336,16 +2336,16 @@
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.17",
+            "version": "v0.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "8ee9f87f7f9eadcbe21e9e72cd4176b2f06cd5b5"
+                "reference": "3b5e6b03f1f1175574b5a32331d99c9819da9848"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/8ee9f87f7f9eadcbe21e9e72cd4176b2f06cd5b5",
-                "reference": "8ee9f87f7f9eadcbe21e9e72cd4176b2f06cd5b5",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/3b5e6b03f1f1175574b5a32331d99c9819da9848",
+                "reference": "3b5e6b03f1f1175574b5a32331d99c9819da9848",
                 "shasum": ""
             },
             "require": {
@@ -2387,9 +2387,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.17"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.18"
             },
-            "time": "2024-03-13T16:05:43+00:00"
+            "time": "2024-04-04T17:41:50+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -2862,16 +2862,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.26.0",
+            "version": "3.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "072735c56cc0da00e10716dd90d5a7f7b40b36be"
+                "reference": "4729745b1ab737908c7d055148c9a6b3e959832f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/072735c56cc0da00e10716dd90d5a7f7b40b36be",
-                "reference": "072735c56cc0da00e10716dd90d5a7f7b40b36be",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4729745b1ab737908c7d055148c9a6b3e959832f",
+                "reference": "4729745b1ab737908c7d055148c9a6b3e959832f",
                 "shasum": ""
             },
             "require": {
@@ -2936,7 +2936,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.26.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.27.0"
             },
             "funding": [
                 {
@@ -2948,7 +2948,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-25T11:49:53+00:00"
+            "time": "2024-04-07T19:17:50+00:00"
         },
         {
             "name": "league/flysystem-local",
@@ -5264,16 +5264,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v4.55.0",
+            "version": "v4.56.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "208cdeda1c7bef4669e43ee7274db06504be0de6"
+                "reference": "06a3a09ee9421479ba148daa26ceb426ecb2fe8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/208cdeda1c7bef4669e43ee7274db06504be0de6",
-                "reference": "208cdeda1c7bef4669e43ee7274db06504be0de6",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/06a3a09ee9421479ba148daa26ceb426ecb2fe8c",
+                "reference": "06a3a09ee9421479ba148daa26ceb426ecb2fe8c",
                 "shasum": ""
             },
             "require": {
@@ -5356,7 +5356,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v4.55.0"
+                "source": "https://github.com/statamic/cms/tree/v4.56.1"
             },
             "funding": [
                 {
@@ -5364,7 +5364,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-27T16:54:49+00:00"
+            "time": "2024-04-09T16:51:26+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -5433,192 +5433,6 @@
                 "source": "https://github.com/statamic/Stringy"
             },
             "time": "2022-05-04T18:41:52+00:00"
-        },
-        {
-            "name": "studio1902/statamic-peak-browser-appearance",
-            "version": "v3.3.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/studio1902/statamic-peak-browser-appearance.git",
-                "reference": "4ba1b00a2d3498cad4719bb041209acf54b3cb84"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-browser-appearance/zipball/4ba1b00a2d3498cad4719bb041209acf54b3cb84",
-                "reference": "4ba1b00a2d3498cad4719bb041209acf54b3cb84",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Statamic Peak Browser Appearance",
-                    "description": "Statamic Peak Browser Appearance addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "Studio1902\\PeakBrowserAppearance\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Studio1902\\PeakBrowserAppearance\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "support": {
-                "issues": "https://github.com/studio1902/statamic-peak-browser-appearance/issues",
-                "source": "https://github.com/studio1902/statamic-peak-browser-appearance/tree/v3.3.4"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/studio1902",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-12-21T13:31:52+00:00"
-        },
-        {
-            "name": "studio1902/statamic-peak-commands",
-            "version": "v7.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/studio1902/statamic-peak-commands.git",
-                "reference": "c6114ec7347550dd0e55a387f72bcf834a84e670"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-commands/zipball/c6114ec7347550dd0e55a387f72bcf834a84e670",
-                "reference": "c6114ec7347550dd0e55a387f72bcf834a84e670",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/prompts": "^0.1",
-                "statamic/cms": "^4.0"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Statamic Peak Commands",
-                    "description": "Statamic Peak Commands addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "Studio1902\\PeakCommands\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Studio1902\\PeakCommands\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "support": {
-                "issues": "https://github.com/studio1902/statamic-peak-commands/issues",
-                "source": "https://github.com/studio1902/statamic-peak-commands/tree/v7.4.2"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/studio1902",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-04-03T15:03:12+00:00"
-        },
-        {
-            "name": "studio1902/statamic-peak-seo",
-            "version": "v8.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/studio1902/statamic-peak-seo.git",
-                "reference": "925b38076c034361418f9df2391f42c3adf86022"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/925b38076c034361418f9df2391f42c3adf86022",
-                "reference": "925b38076c034361418f9df2391f42c3adf86022",
-                "shasum": ""
-            },
-            "require": {
-                "statamic/cms": "^4.0"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Statamic Peak SEO",
-                    "description": "Statamic Peak SEO addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "Studio1902\\PeakSeo\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Studio1902\\PeakSeo\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "support": {
-                "issues": "https://github.com/studio1902/statamic-peak-seo/issues",
-                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v8.10.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/studio1902",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-04-03T08:48:24+00:00"
-        },
-        {
-            "name": "studio1902/statamic-peak-tools",
-            "version": "v5.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/studio1902/statamic-peak-tools.git",
-                "reference": "eaf03b8f87c0f2036d54c44983d80871aa2fb7c6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-tools/zipball/eaf03b8f87c0f2036d54c44983d80871aa2fb7c6",
-                "reference": "eaf03b8f87c0f2036d54c44983d80871aa2fb7c6",
-                "shasum": ""
-            },
-            "require": {
-                "statamic/cms": "^4.0"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Statamic Peak Tools",
-                    "description": "Statamic Peak Tools addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "Studio1902\\PeakTools\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Studio1902\\PeakTools\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "support": {
-                "issues": "https://github.com/studio1902/statamic-peak-tools/issues",
-                "source": "https://github.com/studio1902/statamic-peak-tools/tree/v5.4.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/studio1902",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-03-14T09:41:03+00:00"
         },
         {
             "name": "symfony/console",
@@ -8295,6 +8109,58 @@
             "time": "2024-01-23T14:51:35+00:00"
         },
         {
+            "name": "tdwesten/statamic-builder",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdwesten/statamic-builder.git",
+                "reference": "630a1ccc4b8ebef402f9f35547a7b6d3347bc6f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdwesten/statamic-builder/zipball/630a1ccc4b8ebef402f9f35547a7b6d3347bc6f2",
+                "reference": "630a1ccc4b8ebef402f9f35547a7b6d3347bc6f2",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^10.0",
+                "laravel/framework": "^10.0",
+                "php": "^8.2",
+                "statamic/cms": "^4.46"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.7",
+                "orchestra/testbench": "^8.0",
+                "pestphp/pest": "^2.33",
+                "pestphp/pest-plugin-laravel": "^2.2",
+                "spatie/laravel-ray": "^1.36"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic Builder",
+                    "description": "Statamic Builder addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Tdwesten\\StatamicBuilder\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tdwesten\\StatamicBuilder\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A fluent blueprint and fieldset builder for Statamic.",
+            "support": {
+                "issues": "https://github.com/tdwesten/statamic-builder/issues",
+                "source": "https://github.com/tdwesten/statamic-builder/tree/v1.0.2"
+            },
+            "time": "2024-04-07T19:27:17+00:00"
+        },
+        {
             "name": "thecodingmachine/safe",
             "version": "v2.5.0",
             "source": {
@@ -8887,16 +8753,16 @@
     "packages-dev": [
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "v3.13.2",
+            "version": "v3.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "da425a64d9d3bf4730e9f050e2771b9c37fe7649"
+                "reference": "241e9bddb04ab42a04a5fe8b2b9654374c864229"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/da425a64d9d3bf4730e9f050e2771b9c37fe7649",
-                "reference": "da425a64d9d3bf4730e9f050e2771b9c37fe7649",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/241e9bddb04ab42a04a5fe8b2b9654374c864229",
+                "reference": "241e9bddb04ab42a04a5fe8b2b9654374c864229",
                 "shasum": ""
             },
             "require": {
@@ -8955,7 +8821,7 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.13.2"
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.13.3"
             },
             "funding": [
                 {
@@ -8967,7 +8833,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-03T19:25:19+00:00"
+            "time": "2024-04-04T02:42:49+00:00"
         },
         {
             "name": "fakerphp/faker",
@@ -10030,16 +9896,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.16",
+            "version": "10.5.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "18f8d4a5f52b61fdd9370aaae3167daa0eeb69cd"
+                "reference": "c1f736a473d21957ead7e94fcc029f571895abf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/18f8d4a5f52b61fdd9370aaae3167daa0eeb69cd",
-                "reference": "18f8d4a5f52b61fdd9370aaae3167daa0eeb69cd",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c1f736a473d21957ead7e94fcc029f571895abf5",
+                "reference": "c1f736a473d21957ead7e94fcc029f571895abf5",
                 "shasum": ""
             },
             "require": {
@@ -10111,7 +9977,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.16"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.17"
             },
             "funding": [
                 {
@@ -10127,7 +9993,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-28T10:08:10+00:00"
+            "time": "2024-04-05T04:39:01+00:00"
         },
         {
             "name": "sebastian/cli-parser",

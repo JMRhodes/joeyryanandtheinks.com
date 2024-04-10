@@ -1,6 +1,0 @@
-nav:
-  content:
-    reorder: true
-    items:
-      'content::collections::pages': '@move'
-      'content::collections::albums': '@move'
