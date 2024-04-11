@@ -98,7 +98,7 @@ return [
         */
 
         'presets' => [
-            // 'small' => ['w' => 200, 'h' => 200, 'q' => 75, 'fit' => 'crop'],
+             'small' => ['w' => 200, 'h' => 200, 'q' => 75, 'fit' => 'crop'],
         ],
 
         /*
@@ -119,7 +119,7 @@ return [
         | Append Original Filename
         |--------------------------------------------------------------------------
         |
-        | Append the original filename to Glide generated URLs. 
+        | Append the original filename to Glide generated URLs.
         | This helps with Search Engine Optimization.
         |
         */

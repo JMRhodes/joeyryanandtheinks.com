@@ -23,9 +23,6 @@ return [
         'collections.articles' => [
             // 'article' => App\Blueprints\ArticleBlueprint::class,
         ],
-        'collections.albums' => [
-            // 'album' => App\Blueprints\AlbumBlueprint::class,
-        ],
         'taxonomies.tags' => [
             // 'tag' => App\Blueprints\TagBlueprint::class,
         ],

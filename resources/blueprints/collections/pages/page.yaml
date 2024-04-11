@@ -57,6 +57,19 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              sets:
+                modules:
+                  display: Modules
+                  instructions: null
+                  icon: null
+                  sets:
+                    albums:
+                      display: Albums
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          import: album_cards
   sidebar:
     display: Sidebar
     sections:

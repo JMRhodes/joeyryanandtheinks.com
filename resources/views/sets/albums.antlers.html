@@ -1,0 +1,24 @@
+<section class="">
+    <h2 class="text-5xl font-black">
+        {{headline}}
+    </h2>
+
+    <p>{{description}}</p>
+
+    {{if albums}}
+        <ul class="flex">
+            {{ albums }}
+            <li>
+                {{ title }}
+                {{ image }}
+                <img src="{{ glide:url square="350" }}" alt="{{ alt }}"/>
+                {{ /image }}
+            </li>
+            {{ /albums }}
+        </ul>
+    {{ endif }}
+
+    {{if call_to_action}}
+        <a href="{{ call_to_action }}">See Albums</a>
+    {{ endif }}
+</section>
