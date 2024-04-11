@@ -1,0 +1,49 @@
+title: 'Album Cards'
+fields:
+  -
+    handle: headline
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Headline
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: description
+    field:
+      antlers: false
+      type: textarea
+      display: Description
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: albums
+    field:
+      mode: default
+      create: true
+      collections:
+        - album
+      type: entries
+      display: Albums
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: call_to_action
+    field:
+      type: link
+      display: 'Call to Action'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
