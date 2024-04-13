@@ -4,3 +4,26 @@
 
 /* This is all you. */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+[x-cloak] { display: none !important; }
+
+.button {
+    padding: 26px 40px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #1b1b1f;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    -webkit-transition: color 350ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 350ms ease, transform 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+}
+
+.button:hover {
+    background-color: #626267;
+    -webkit-transform: scale(0.94);
+    -ms-transform: scale(0.94);
+    transform: scale(0.94);
+    color: #fff;
+}

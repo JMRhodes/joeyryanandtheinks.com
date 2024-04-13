@@ -9,6 +9,18 @@ export default {
     ],
 
     theme: {
+        fontSize: {
+            sm: ['16px', '28px'],
+            base: ['18px', '30px'],
+            lg: ['24px', '36px'],
+            h5: ['18px', '22px'],
+            h4: ['22px', '24px'],
+            h3: ['26px', '32px'],
+            h2: ['44px', '54px'],
+            h1: ['50px', '58px'],
+            display: ['86px', '86px'],
+            big: ['240px', '190px']
+        },
         extend: {
             colors: {
                 muted: {

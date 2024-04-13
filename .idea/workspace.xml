@@ -4,28 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="cp nav customizations, album blueprint scaffolding">
-      <change afterPath="$PROJECT_DIR$/resources/views/sets/albums.antlers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/sets/text.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="album fieldset and module render on homepage">
+      <change afterPath="$PROJECT_DIR$/resources/views/parts/album-vertical.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blade.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Blueprints/AlbumBlueprint.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/statamic/assets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/statamic/assets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/statamic/builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/statamic/builder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/pages/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/trees/collections/pages.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/trees/collections/pages.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/assets/site-c5b7722e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/assets/site-4ed993c7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/assets/site-9a0e5d09.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/default.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/default.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sets/albums.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/albums.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/justin.m.rhodes@gmail.com.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/justin.m.rhodes@gmail.com.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,22 +194,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.laravel-idea.update-module-directories": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.update-module-directories&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Pest.Main">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -225,9 +218,6 @@
     <configuration name="Main" type="PestRunConfigurationType">
       <option name="pestRunnerSettings">
         <PestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
-      </option>
-      <option name="runnerSettings">
-        <PhpTestRunnerSettings configuration_file="$PROJECT_DIR$/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
       </option>
       <method v="2" />
     </configuration>
@@ -249,7 +239,13 @@
       <updated>1712194037876</updated>
       <workItem from="1712194039318" duration="5147000" />
       <workItem from="1712719874610" duration="4388000" />
-      <workItem from="1712802441814" duration="5366000" />
+      <workItem from="1712802441814" duration="5425000" />
+      <workItem from="1712886762881" duration="2250000" />
+      <workItem from="1712931858892" duration="498000" />
+      <workItem from="1712932705323" duration="1337000" />
+      <workItem from="1712934054086" duration="1088000" />
+      <workItem from="1712935259083" duration="201000" />
+      <workItem from="1712975612335" duration="2991000" />
     </task>
     <task id="LOCAL-00001" summary="local env setup">
       <option name="closed" value="true" />
@@ -291,7 +287,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712723722346</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="album fieldset and module render on homepage">
+      <option name="closed" value="true" />
+      <created>1712843393116</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712843393116</updated>
+    </task>
+    <task id="LOCAL-00007" summary="album fieldset and module render on homepage">
+      <option name="closed" value="true" />
+      <created>1712843399569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712843399569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +325,7 @@
     <MESSAGE value="Statamic peak starter kit" />
     <MESSAGE value="Reset Statamic" />
     <MESSAGE value="cp nav customizations, album blueprint scaffolding" />
-    <option name="LAST_COMMIT_MESSAGE" value="cp nav customizations, album blueprint scaffolding" />
+    <MESSAGE value="album fieldset and module render on homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="album fieldset and module render on homepage" />
   </component>
 </project>

@@ -1,24 +1,44 @@
-<section class="">
-    <h2 class="text-5xl font-black">
+<section class="grid col-span-12  grid-cols-12 auto-cols-auto px-8 justify-center relative w-full py-[240px]"
+         x-data="{ shown: false }"
+         x-intersect.threshold.100="shown = true">
+    <h2 class="text-h2 font-black mb-5 col-span-12 col-start-2"
+        x-cloak
+        x-show="shown"
+        x-transition:enter.duration.800ms
+        x-transition:leave.duration.400ms>
         {{headline}}
     </h2>
 
-    <p>{{description}}</p>
-
+    <div class="mb-5 col-span-4 col-start-2"
+         x-cloak
+         x-show="shown"
+         x-transition:enter.duration.800ms
+         x-transition:leave.duration.400ms>
+        <p>{{description}}</p>
+    </div>
     {{if albums}}
-        <ul class="flex">
-            {{ albums }}
-            <li>
-                {{ title }}
-                {{ image }}
-                <img src="{{ glide:url square="350" }}" alt="{{ alt }}"/>
-                {{ /image }}
-            </li>
-            {{ /albums }}
-        </ul>
+        <div class="col-span-10 col-start-2 mb-5 py-8 rounded-2xl"
+             x-transition.delay.5000ms>
+            <div class="grid gap-6 grid-cols-4">
+                {{ albums }}
+                {{ partial src="parts/album-vertical" }}
+                {{ /albums }}
+            </div>
+        </div>
     {{ endif }}
 
-    {{if call_to_action}}
-        <a href="{{ call_to_action }}">See Albums</a>
-    {{ endif }}
+    <div class="col-span-10 col-start-2 text-center pt-8" x-cloak x-show="shown"
+         x-transition:enter.duration.800ms
+         x-transition:leave.duration.400ms>
+        {{if call_to_action}}
+            <a class="button" href="{{ call_to_action }}">See Albums</a>
+        {{ endif }}
+    </div>
+
+    <div class="text-big uppercase font-black text-muted-700 z-[-1] absolute left-[-3%] top-[6%]"
+         x-cloak x-show="shown"
+         x-transition:enter.duration.800ms
+         x-transition:leave.duration.400ms>
+        Music
+    </div>
 </section>

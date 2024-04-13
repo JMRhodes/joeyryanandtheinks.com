@@ -18,20 +18,19 @@ tabs:
               buttons:
                 - h2
                 - h3
+                - h4
                 - bold
                 - italic
+                - underline
+                - small
                 - unorderedlist
                 - orderedlist
-                - removeformat
                 - quote
-                - anchor
                 - image
-                - table
-                - small
+                - code
                 - alignleft
                 - aligncenter
                 - alignright
-                - alignjustify
               smart_typography: false
               save_html: false
               inline: false
@@ -42,7 +41,7 @@ tabs:
               allow_source: true
               enable_input_rules: true
               enable_paste_rules: true
-              remove_empty_nodes: false
+              remove_empty_nodes: true
               antlers: false
               link_noopener: false
               link_noreferrer: false
@@ -64,7 +63,7 @@ tabs:
                   icon: null
                   sets:
                     albums:
-                      display: Albums
+                      display: Album Cards
                       instructions: null
                       icon: null
                       fields:
