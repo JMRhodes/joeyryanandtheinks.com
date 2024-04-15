@@ -1,0 +1,25 @@
+tree:
+  -
+    id: 659ec946-ea44-42a2-82b9-10dbc12f8912
+    title: Facebook
+    url: 'https://www.facebook.com/joeyryanandtheinks'
+    data:
+      icon: facebook
+  -
+    id: e51ff6b0-61c5-45f9-9f7e-b60ac23e1c3a
+    title: YouTube
+    url: 'https://www.youtube.com/user/jrandtheinks1'
+    data:
+      icon: youtube
+  -
+    id: 4ccfc564-e4fd-491f-add5-923a1c8ade4f
+    title: Soundcloud
+    url: 'https://soundcloud.com/joey-ryan-the-inks'
+    data:
+      icon: soundcloud
+  -
+    id: 66c9505e-1927-491e-9caa-884b0c949e22
+    title: Spotify
+    url: 'https://play.spotify.com/artist/1mj3NfVgHfhn8N3sYL5Bfd?play=true&utm_source=open.spotify.com&utm_medium=open'
+    data:
+      icon: spotify
