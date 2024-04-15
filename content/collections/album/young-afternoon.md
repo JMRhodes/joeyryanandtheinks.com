@@ -5,7 +5,8 @@ title: 'Young Afternoon'
 image:
   - cover-art/youngafternoon.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1712723747
+updated_at: 1712979393
+release_year: 2016
 content:
   -
     type: paragraph

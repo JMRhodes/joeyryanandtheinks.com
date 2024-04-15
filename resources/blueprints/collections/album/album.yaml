@@ -73,6 +73,16 @@ tabs:
               show_regenerate: false
               hide_display: false
           -
+            handle: release_year
+            field:
+              type: integer
+              display: 'Release Year'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: image
             field:
               mode: grid
@@ -88,3 +98,4 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              max_files: 1

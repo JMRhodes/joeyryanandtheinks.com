@@ -8,22 +8,19 @@
 [x-cloak] { display: none !important; }
 
 .button {
-    padding: 26px 40px;
-    border-radius: 12px;
+    padding: 14px 28px;
+    border-radius: 0.5rem;
     background-color: #ffffff;
     color: #1b1b1f;
     font-size: 20px;
     line-height: 22px;
     font-weight: 700;
     text-align: center;
-    -webkit-transition: color 350ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
-    transition: color 350ms ease, transform 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 350ms ease, transform 300ms ease, background-color 300ms ease;
 }
 
 .button:hover {
-    background-color: #626267;
-    -webkit-transform: scale(0.94);
-    -ms-transform: scale(0.94);
+    background-color: #e57259;
     transform: scale(0.94);
     color: #fff;
 }

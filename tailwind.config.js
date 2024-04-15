@@ -23,6 +23,7 @@ export default {
         },
         extend: {
             colors: {
+                secondary: "#e57259",
                 muted: {
                     800: "#1b1b1f",
                     700: "#37373d",

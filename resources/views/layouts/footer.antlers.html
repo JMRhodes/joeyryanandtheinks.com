@@ -1,0 +1,30 @@
+<footer class="footer">
+    {{ footer | dump }}
+    <div class="py-16 grid grid-cols-2 gap-5 text-base border-b border-muted-700">
+        <div class="text-left">
+            <div class="logo mb-8">
+                {{ svg :src="footer:footer_logo:url" class="fill-white h-5 w-auto" }}
+            </div>
+            {{ footer:footer_excerpt }}
+        </div>
+        <div class="text-right font-bold text-h4">
+            <h4 class="uppercase">
+                Check us out
+            </h4>
+            {{ footer:footer_nav }}
+            <ul class="grid gap-8 grid-flow-col justify-end py-4">
+                {{ nav :handle="handle" }}
+                    <li class=" col-auto">
+                        <a href="{{ url }}" class="h-[28px] w-[28px] fill-white" title="{{ title }}" target="_blank">
+                            {{ svg :src="icon" class="fill-white w-8 h-8" }}
+                        </a>
+                    </li>
+                {{ /nav }}
+            </ul>
+            {{ /footer:footer_nav }}
+        </div>
+    </div>
+    <div class="copyright text-center text-sm py-8">
+        <p>{{ footer:copyright }}</p>
+    </div>
+</footer>

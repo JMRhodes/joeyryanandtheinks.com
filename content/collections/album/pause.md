@@ -5,7 +5,8 @@ title: '[pause.]'
 image:
   - cover-art/a3818796313_16.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1712721967
+updated_at: 1712979467
+release_year: 2013
 content:
   -
     type: paragraph

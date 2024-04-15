@@ -1,16 +1,15 @@
-<div class="col-auto rounded-xl overflow-hidden" x-cloak x-show="shown"
+<div class="col-auto rounded-lg p-2 bg-muted-700 overflow-hidden" x-cloak x-show="shown"
      x-transition:enter.duration.800ms
      x-transition:leave.duration.400ms>
     <div class="image">
         {{ image }}
-            <img src="{{ glide:url square="350" }}" alt="{{ alt }}"/>
+            <img class="rounded-lg" src="{{ glide:url square="350" }}" alt="{{ alt }}"/>
         {{ /image }}
     </div>
-    <div class="image bg-muted-700 py-6 px-4">
-        <p class="text-sm">2019</p>
-        <h3 class="text-h3 font-bold py-2 h-24">{{ title }}</h3>
-        <a href="#" class="pt-4 block text-sm">
-            See Album
-        </a>
+    <div class="image p-4 text-center">
+        <p class="text-sm text-muted-500">
+            {{ release_year ?? "2019" }}
+        </p>
+        <h3 class="text-h3 font-bold py-2 h-18">{{ title }}</h3>
     </div>
 </div>

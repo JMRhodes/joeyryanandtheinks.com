@@ -5,7 +5,8 @@ title: 'Well, Here We Are Then'
 image:
   - cover-art/wellherewearethen.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1712722023
+updated_at: 1712979475
+release_year: 2009
 content:
   -
     type: paragraph

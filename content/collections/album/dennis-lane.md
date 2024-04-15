@@ -5,7 +5,8 @@ title: 'Dennis Lane'
 image:
   - cover-art/a2742499165_10.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1712721997
+updated_at: 1712979479
+release_year: 2011
 content:
   -
     type: paragraph

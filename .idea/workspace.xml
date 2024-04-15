@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="album fieldset and module render on homepage">
-      <change afterPath="$PROJECT_DIR$/resources/views/parts/album-vertical.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blade.xml" afterDir="false" />
+    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="Album module styles and transitions">
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/dennis-lane.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/dennis-lane.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/pause.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/pause.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/well-here-we-are-then.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/well-here-we-are-then.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/home.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/assets/site-4ed993c7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/assets/site-9a0e5d09.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/trees/collections/album.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/trees/collections/album.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/album/album.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/album/album.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fieldsets/album_cards.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fieldsets/album_cards.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/default.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/default.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/parts/album-vertical.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/parts/album-vertical.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/sets/albums.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/albums.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
@@ -245,7 +248,7 @@
       <workItem from="1712932705323" duration="1337000" />
       <workItem from="1712934054086" duration="1088000" />
       <workItem from="1712935259083" duration="201000" />
-      <workItem from="1712975612335" duration="2991000" />
+      <workItem from="1712975612335" duration="9967000" />
     </task>
     <task id="LOCAL-00001" summary="local env setup">
       <option name="closed" value="true" />
@@ -303,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712843399569</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Album module styles and transitions">
+      <option name="closed" value="true" />
+      <created>1712978631634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712978631634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +337,7 @@
     <MESSAGE value="Reset Statamic" />
     <MESSAGE value="cp nav customizations, album blueprint scaffolding" />
     <MESSAGE value="album fieldset and module render on homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="album fieldset and module render on homepage" />
+    <MESSAGE value="Album module styles and transitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Album module styles and transitions" />
   </component>
 </project>
