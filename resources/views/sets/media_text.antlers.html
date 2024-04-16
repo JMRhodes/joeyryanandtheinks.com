@@ -1,5 +1,5 @@
 <section
-    class="grid grid-cols-10 m-auto text-center justify-center relative py-[125px] overflow-hidden border-b border-muted-700"
+    class="grid grid-cols-10 m-auto text-center justify-center relative pt-[125px] pb-[125px] overflow-hidden border-b border-muted-700"
     x-data="{ about: false }"
     x-intersect.threshold.80="about = true">
     <h2 class="text-h2 text-secondary font-black mb-5 col-span-full">
@@ -16,21 +16,21 @@
         {{ endif }}
     </div>
     {{  if media }}
-        <div class="grid grid-cols-8 auto-cols-fr auto-rows-fr grid-rows-10 col-start-2 col-span-full relative">
+        <div class="grid grid-cols-8 auto-cols-fr auto-rows-fr grid-rows-8 col-start-2 col-span-full relative">
             {{ media:primary }}
                 <div class="col-span-6 col-start-1 row-span-7 row-start-1">
                     <img class="w-full" src="{{ glide:url w="860" q="75" fm="webp" }}" alt="{{ alt }}"/>
                 </div>
             {{ /media:primary }}
             {{ media:secondary }}
-                <div class="col-span-4 col-start-4 row-span-5 row-start-6">
+                <div class="col-span-4 col-start-4 row-span-5 row-start-5">
                     <img class="w-full" src="{{ glide:url height="400" fit="crop" q="75" fm="webp" }}" alt="{{ alt }}"/>
                 </div>
             {{ /media:secondary }}
         </div>
     {{ endif }}
 
-    <div class="text-big uppercase font-black text-center w-full text-muted-700 z-[-1] absolute bottom-[-4%]">
+    <div class="text-big uppercase font-black text-center w-full text-muted-700 z-[-1] absolute bottom-[-3%]">
         {{ big_text }}
     </div>
     <div class=" 1-full h-[1px]"></div>
