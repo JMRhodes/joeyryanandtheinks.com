@@ -3,7 +3,7 @@ id: c1cd0de8-d866-4dd1-8f81-426e7ec70942
 blueprint: page
 title: Home
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713218400
+updated_at: 1713235906
 content:
   -
     type: set
@@ -33,4 +33,7 @@ content:
         gallery:
           - jrinks_press_photo-1400x933.jpg
           - bwdiag-e1458521134682-1400x745.jpg
+        media:
+          primary: jrinks_press_photo-1400x933.jpg
+          secondary: bwdiag-e1458521134682-1400x745.jpg
 ---

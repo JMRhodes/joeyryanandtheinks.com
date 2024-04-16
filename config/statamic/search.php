@@ -25,16 +25,18 @@ return [
 
     'indexes' => [
 
-        'default' => [
+//        'default' => [
+//            'driver' => 'local',
+//            'searchables' => 'all',
+//            'fields' => ['title'],
+//        ],
+
+        // Palette search
+        'palette' => [
             'driver' => 'local',
             'searchables' => 'all',
-            'fields' => ['title'],
+            'fields' => ['title', 'summary'],
         ],
-
-        // 'blog' => [
-        //     'driver' => 'local',
-        //     'searchables' => 'collection:blog',
-        // ],
 
     ],
 

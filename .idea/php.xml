@@ -164,6 +164,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/lock" />
       <path value="$PROJECT_DIR$/vendor/react/promise" />
       <path value="$PROJECT_DIR$/vendor/ueberdosis/tiptap-php" />
+      <path value="$PROJECT_DIR$/vendor/trendyminds/statamic-palette" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

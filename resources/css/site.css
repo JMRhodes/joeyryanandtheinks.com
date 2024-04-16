@@ -17,6 +17,7 @@
     font-weight: 700;
     text-align: center;
     transition: color 350ms ease, transform 300ms ease, background-color 300ms ease;
+    display: inline-block;
 }
 
 .button:hover {

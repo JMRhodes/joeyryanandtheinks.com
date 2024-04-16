@@ -1,38 +1,36 @@
 <section
     class="grid grid-cols-10 m-auto text-center justify-center relative py-[125px] overflow-hidden border-b border-muted-700"
-    x-data="{ shown: false, album: false }"
-    x-intersect.threshold.80="album = true"
-    x-intersect.threshold.100="shown = true">
-    <h2 class="text-h2 text-secondary font-black mb-5 col-span-full"
-        x-cloak
-        x-show="shown"
-        x-transition:enter.duration.800ms
-        x-transition:leave.duration.400ms>
+    x-data="{ about: false }"
+    x-intersect.threshold.80="about = true">
+    <h2 class="text-h2 text-secondary font-black mb-5 col-span-full">
         {{headline}}
     </h2>
 
-    <div class="mb-5 col-span-6 col-start-3"
-         x-cloak
-         x-show="shown"
-         x-transition:enter.duration.800ms
-         x-transition:leave.duration.400ms>
+    <div class="mb-12 col-span-6 col-start-3">
         <p>{{description}}</p>
     </div>
 
-    {{  }}
-
-    <div class="col-span-full text-center" x-cloak x-show="shown"
-         x-transition:enter.duration.800ms
-         x-transition:leave.duration.400ms>
+    <div class="col-span-full text-center mb-20">
         {{if call_to_action}}
-            <a class="button" href="{{ call_to_action }}">See Albums</a>
+            <a class="button" href="{{ call_to_action }}">More Info</a>
         {{ endif }}
     </div>
+    {{  if media }}
+        <div class="grid grid-cols-8 auto-cols-fr auto-rows-fr grid-rows-10 col-start-2 col-span-full relative">
+            {{ media:primary }}
+                <div class="col-span-6 col-start-1 row-span-7 row-start-1">
+                    <img class="w-full" src="{{ glide:url w="860" q="75" fm="webp" }}" alt="{{ alt }}"/>
+                </div>
+            {{ /media:primary }}
+            {{ media:secondary }}
+                <div class="col-span-4 col-start-4 row-span-5 row-start-6">
+                    <img class="w-full" src="{{ glide:url height="400" fit="crop" q="75" fm="webp" }}" alt="{{ alt }}"/>
+                </div>
+            {{ /media:secondary }}
+        </div>
+    {{ endif }}
 
-    <div class="text-big uppercase font-black text-center w-full text-muted-700 z-[-1] absolute bottom-[-4%]"
-         x-cloak x-show="shown"
-         x-transition:enter.duration.800ms
-         x-transition:leave.duration.400ms>
+    <div class="text-big uppercase font-black text-center w-full text-muted-700 z-[-1] absolute bottom-[-4%]">
         {{ big_text }}
     </div>
     <div class=" 1-full h-[1px]"></div>

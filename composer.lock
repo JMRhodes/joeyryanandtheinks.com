@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88337a197bd9098ea3816ea068857e9c",
+    "content-hash": "4040f232f257fe5b5d852ae4b5d1cb8d",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -8299,6 +8299,51 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.2.7"
             },
             "time": "2023-12-08T13:03:43+00:00"
+        },
+        {
+            "name": "trendyminds/statamic-palette",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendyminds/statamic-palette.git",
+                "reference": "2b54c4cbdeacbc2177b13c8a4dbde5396da06335"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendyminds/statamic-palette/zipball/2b54c4cbdeacbc2177b13c8a4dbde5396da06335",
+                "reference": "2b54c4cbdeacbc2177b13c8a4dbde5396da06335",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "statamic/cms": "^4.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.14"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Palette",
+                    "description": "A command palette to jump to specific areas within Statamic"
+                },
+                "laravel": {
+                    "providers": [
+                        "Trendyminds\\Palette\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Trendyminds\\Palette\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Palette allows you to easily jump between areas, entries, assets, and users within Statamic without lifting your hands off the keyboard!",
+            "support": {
+                "source": "https://github.com/trendyminds/statamic-palette/tree/1.0.4"
+            },
+            "time": "2024-03-28T12:21:17+00:00"
         },
         {
             "name": "ueberdosis/tiptap-php",

@@ -2,10 +2,9 @@
 id: 64f20f63-645c-4e1f-a0b9-7cbf668e2948
 blueprint: album
 title: 'Young Afternoon'
-image:
-  - cover-art/youngafternoon.jpg
+image: cover-art/youngafternoon.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1712979393
+updated_at: 1713234660
 release_year: 2016
 content:
   -

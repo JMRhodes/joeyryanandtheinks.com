@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="Album module finalized + footer layout desktop">
-      <change afterPath="$PROJECT_DIR$/resources/views/sets/media_text.antlers.html" afterDir="false" />
+    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="Media text pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/statamic/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/statamic/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/home.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/assets/site-99f9c69a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/preferences.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/preferences.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sets/albums.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/albums.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fieldsets/media_text.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fieldsets/media_text.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/parts/album-vertical.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/parts/album-vertical.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sets/media_text.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/media_text.antlers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +183,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/lock" />
       <path value="$PROJECT_DIR$/vendor/react/promise" />
       <path value="$PROJECT_DIR$/vendor/ueberdosis/tiptap-php" />
+      <path value="$PROJECT_DIR$/vendor/trendyminds/statamic-palette" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -247,7 +252,7 @@
       <workItem from="1712934054086" duration="1088000" />
       <workItem from="1712935259083" duration="201000" />
       <workItem from="1712975612335" duration="10765000" />
-      <workItem from="1713218450507" duration="858000" />
+      <workItem from="1713218450507" duration="3585000" />
     </task>
     <task id="LOCAL-00001" summary="local env setup">
       <option name="closed" value="true" />
@@ -329,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713150409138</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Media text pattern">
+      <option name="closed" value="true" />
+      <created>1713234330146</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713234330146</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +367,7 @@
     <MESSAGE value="album fieldset and module render on homepage" />
     <MESSAGE value="Album module styles and transitions" />
     <MESSAGE value="Album module finalized + footer layout desktop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Album module finalized + footer layout desktop" />
+    <MESSAGE value="Media text pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Media text pattern" />
   </component>
 </project>
