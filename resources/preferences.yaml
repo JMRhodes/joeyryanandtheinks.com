@@ -37,3 +37,4 @@ nav:
         'content::collections': '@hide'
         'content::assets': '@inherit'
         'content::navigation': '@inherit'
+        'content::taxonomies': '@hide'

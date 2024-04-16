@@ -63,12 +63,19 @@ tabs:
                   icon: null
                   sets:
                     albums:
-                      display: Album Cards
+                      display: 'Album Cards'
                       instructions: null
-                      icon: null
+                      icon: file-content-list
                       fields:
                         -
                           import: album_cards
+                    media_text:
+                      display: 'Media Text'
+                      instructions: null
+                      icon: media-news-paper
+                      fields:
+                        -
+                          import: media_text
   sidebar:
     display: Sidebar
     sections:

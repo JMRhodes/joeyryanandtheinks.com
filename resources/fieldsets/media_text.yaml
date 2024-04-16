@@ -1,0 +1,31 @@
+title: 'Media Text'
+fields:
+  -
+    handle: headline
+    field: album_cards.headline
+  -
+    handle: big_text
+    field: album_cards.big_text
+  -
+    handle: description
+    field: album_cards.description
+  -
+    handle: gallery
+    field:
+      max_files: 3
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      show_set_alt: true
+      type: assets
+      display: Gallery
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: call_to_action
+    field: album_cards.call_to_action
