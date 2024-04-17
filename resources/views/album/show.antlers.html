@@ -1,0 +1,61 @@
+<section class="max-w-7xl px-4 m-auto">
+    <div class="single grid grid-cols-10 pt-[125px] pb-[125px] border-b border-muted-700">
+        <div class="col-span-3 col-start-1">
+            {{ image }}
+            <img class="w-full rounded-lg mb-12" src="{{ glide:url q="80" fm="webp" square="350" }}" alt="{{ alt }}"/>
+            {{ /image }}
+            <div class="block text-left font-bold text-h4 mb-12">
+                <a class="flex mb-6 hover:text-secondary transition"
+                   href="https://open.spotify.com/album/4KAQYnI2SAEPI5Fu48YOax" title="Listen on Spotify"
+                   target="_blank">
+                    <span class="mr-4">Spotify</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                         stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                    </svg>
+                </a>
+                <a class="flex mb-6 hover:text-secondary transition"
+                   href="https://open.spotify.com/album/4KAQYnI2SAEPI5Fu48YOax" title="Listen on Spotify"
+                   target="_blank">
+                    <span class="mr-4">YouTube</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                         stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                    </svg>
+                </a>
+                <a class="flex mb-6 hover:text-secondary transition"
+                   href="https://open.spotify.com/album/4KAQYnI2SAEPI5Fu48YOax" title="Listen on Spotify"
+                   target="_blank">
+                    <span class="mr-4">SoundCloud</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                         stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="markdown text-sm text-muted-500 leading-normal">
+                {{ meta | markdown }}
+            </div>
+        </div>
+        <div class="col-span-6 col-start-5">
+            <div class="mb-5">
+                <h1 class="text-h2 uppercase font-black">
+                    {{ title }}
+                </h1>
+                <div class="flex text-sm py-4">
+                    <div class="pill-tab bg-muted-700 border-muted-700">{{ release_year }}</div>
+                    {{ taxonomy from="tags" }}
+                        <div class="pill-tab bg-muted-700 border-muted-700">{{ title }}</div>
+                    {{ /taxonomy }}
+                </div>
+            </div>
+            <div class="markdown content text-base mb-20">
+                {{ content | markdown }}
+            </div>
+            {{ spotify }}
+        </div>
+    </div>
+</section>

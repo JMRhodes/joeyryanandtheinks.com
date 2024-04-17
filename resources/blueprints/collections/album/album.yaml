@@ -53,6 +53,21 @@ tabs:
               replicator_preview: true
               hide_display: false
       -
+        display: Meta
+        instructions: 'Album meta content.'
+        fields:
+          -
+            handle: meta
+            field:
+              antlers: false
+              type: textarea
+              display: Meta
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+      -
         display: Embeds
         instructions: 'Embedded album code'
         fields:
@@ -122,6 +137,16 @@ tabs:
               replicator_preview: true
               hide_display: false
               max_files: 1
+          -
+            handle: link_spotify
+            field:
+              type: link
+              display: Spotify
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: false
+              hide_display: false
   alt_seo:
     display: 'Alt SEO'
     sections:

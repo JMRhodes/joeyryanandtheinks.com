@@ -15,3 +15,42 @@ preferences:
       after_save: continue_editing
     album:
       after_save: continue_editing
+  nav:
+    reorder: true
+    sections:
+      top_level: '@inherit'
+      publishing:
+        action: '@create'
+        display: Publishing
+        items:
+          'publishing::pages':
+            action: '@create'
+            icon: textarea
+            display: Pages
+            url: collections/pages
+          'publishing::albums':
+            action: '@create'
+            icon: radio
+            display: Albums
+            url: collections/album
+          'publishing::shows':
+            action: '@create'
+            icon: group
+            display: Shows
+            url: collections/shows
+          'publishing::videos':
+            action: '@create'
+            icon: video
+            display: Videos
+            url: collections/videos
+          'publishing::shop':
+            action: '@create'
+            icon: taxonomies
+            display: Shop
+            url: collections/shop
+      content:
+        reorder: true
+        items:
+          'content::collections': '@hide'
+          'content::assets': '@inherit'
+          'content::navigation': '@inherit'

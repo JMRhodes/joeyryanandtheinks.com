@@ -6,18 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {{ alt_seo:meta }}
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
-
-        {{ if live_preview }}
-            <script>
-                window.addEventListener('message', async (event) => {
-                    if (event.data.name === 'statamic.preview.updated') {
-                        const text = await fetch(event.data.url).then((res) => res.text());
-                        const updated = new DOMParser().parseFromString(text, 'text/html');
-                        Alpine.morph(document.body, updated.body);
-                    }
-                });
-            </script>
-        {{ /if }}
     </head>
     <body class="bg-muted-800 text-slate-100 text-lg font-red_hat leading-normal">
         <main class="m-auto w-full">

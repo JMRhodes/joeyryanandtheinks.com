@@ -1,6 +1,8 @@
 title: Albums
-template: single-album
+template: album/show
 layout: layout
+taxonomies:
+  - tags
 revisions: false
 route: '/album/{{slug}}'
 sort_dir: asc

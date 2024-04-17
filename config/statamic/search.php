@@ -25,17 +25,17 @@ return [
 
     'indexes' => [
 
-//        'default' => [
-//            'driver' => 'local',
-//            'searchables' => 'all',
-//            'fields' => ['title'],
-//        ],
+        'default' => [
+            'driver' => 'local',
+            'searchables' => 'all',
+            'fields' => ['title'],
+        ],
 
         // Palette search
         'palette' => [
             'driver' => 'local',
             'searchables' => 'all',
-            'fields' => ['title', 'summary'],
+            'fields' => ['title'],
         ],
 
     ],

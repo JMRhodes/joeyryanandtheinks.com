@@ -4,12 +4,20 @@ blueprint: album
 title: 'Young Afternoon'
 image: cover-art/youngafternoon.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713302973
+updated_at: 1713323555
 release_year: 2016
 spotify:
-  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4KAQYnI2SAEPI5Fu48YOax?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4KAQYnI2SAEPI5Fu48YOax?utm_source=generator&theme=0" width="100%" height="860" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
   mode: htmlmixed
 alt_seo_meta_description: '{description}'
+link_spotify: 'https://open.spotify.com/album/4KAQYnI2SAEPI5Fu48YOax'
+meta: |-
+  Release Date May 6, 2016
+  Produced and engineered by Ryan Mach & Joey Ryan
+  Mixed by Ryan Mach
+  Mastered by Dave Gardner (Magneto Mastering)
+
+  *Album contains a download card that has a special bonus track only available with vinyl purchase.
 content:
   -
     type: paragraph
