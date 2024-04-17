@@ -165,6 +165,8 @@
       <path value="$PROJECT_DIR$/vendor/react/promise" />
       <path value="$PROJECT_DIR$/vendor/ueberdosis/tiptap-php" />
       <path value="$PROJECT_DIR$/vendor/trendyminds/statamic-palette" />
+      <path value="$PROJECT_DIR$/vendor/alt-design/alt-seo" />
+      <path value="$PROJECT_DIR$/vendor/alt-design/alt-redirect" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

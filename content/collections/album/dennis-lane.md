@@ -2,11 +2,13 @@
 id: b618f974-1c34-4598-8b11-9385aecbcbca
 blueprint: album
 title: 'Dennis Lane'
-image:
-  - cover-art/a2742499165_10.jpg
+image: cover-art/a2742499165_10.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1712979479
+updated_at: 1713302781
 release_year: 2011
+spotify:
+  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/33LPBWyq1koWNlHRuRfPWX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+  mode: htmlmixed
 content:
   -
     type: paragraph

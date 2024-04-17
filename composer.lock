@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4040f232f257fe5b5d852ae4b5d1cb8d",
+    "content-hash": "b134d82be252cb754dc9578d53389dec",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -68,6 +68,98 @@
                 "source": "https://github.com/ajthinking/archetype/tree/v1.1.5"
             },
             "time": "2022-08-24T05:52:35+00:00"
+        },
+        {
+            "name": "alt-design/alt-redirect",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alt-design/Alt-Redirect-Addon.git",
+                "reference": "fb36d83b8999cfd031455bf69fd2fe1002c8d0f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alt-design/Alt-Redirect-Addon/zipball/fb36d83b8999cfd031455bf69fd2fe1002c8d0f1",
+                "reference": "fb36d83b8999cfd031455bf69fd2fe1002c8d0f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "statamic/cms": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Alt Redirect",
+                    "description": "Alt Redirect addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "AltDesign\\AltRedirect\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AltDesign\\AltRedirect\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Alt Redirect addon, add Redirects to your site",
+            "support": {
+                "issues": "https://github.com/alt-design/Alt-Redirect-Addon/issues",
+                "source": "https://github.com/alt-design/Alt-Redirect-Addon/tree/v1.2.0"
+            },
+            "time": "2024-03-26T15:43:31+00:00"
+        },
+        {
+            "name": "alt-design/alt-seo",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alt-design/Alt-SEO-Addon.git",
+                "reference": "61595ae6e55601793d90a81bc36d2e69ddaae6ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alt-design/Alt-SEO-Addon/zipball/61595ae6e55601793d90a81bc36d2e69ddaae6ed",
+                "reference": "61595ae6e55601793d90a81bc36d2e69ddaae6ed",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "statamic/cms": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Alt Seo",
+                    "description": "Alt Seo addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "AltDesign\\AltSeo\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AltDesign\\AltSeo\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Alt SEO addon, add SEO tags to your site",
+            "support": {
+                "issues": "https://github.com/alt-design/Alt-SEO-Addon/issues",
+                "source": "https://github.com/alt-design/Alt-SEO-Addon/tree/v1.1.2"
+            },
+            "time": "2024-04-09T12:12:33+00:00"
         },
         {
             "name": "brick/math",

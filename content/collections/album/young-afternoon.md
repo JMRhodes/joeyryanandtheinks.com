@@ -4,8 +4,12 @@ blueprint: album
 title: 'Young Afternoon'
 image: cover-art/youngafternoon.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713234660
+updated_at: 1713302973
 release_year: 2016
+spotify:
+  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4KAQYnI2SAEPI5Fu48YOax?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+  mode: htmlmixed
+alt_seo_meta_description: '{description}'
 content:
   -
     type: paragraph

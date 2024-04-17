@@ -4,11 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="Palette addon and media text fieldset styles component">
+    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="Media text image grid">
+      <change afterPath="$PROJECT_DIR$/resources/fieldsets/hero.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/sets/_albums.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/sets/_hero.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/sets/_media_text.antlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/single-album.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/assets/site-1e9da051.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/dennis-lane.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/dennis-lane.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/pause.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/pause.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/well-here-we-are-then.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/well-here-we-are-then.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/pages.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/assets/site-22e33b38.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/assets/site-c5ff1e27.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sets/media_text.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/media_text.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/album/album.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/album/album.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/default.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/default.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/parts/album-vertical.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/parts/_album-vertical.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sets/albums.antlers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sets/media_text.antlers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sets/text.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/_text.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/justin.m.rhodes@gmail.com.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/justin.m.rhodes@gmail.com.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +205,8 @@
       <path value="$PROJECT_DIR$/vendor/react/promise" />
       <path value="$PROJECT_DIR$/vendor/ueberdosis/tiptap-php" />
       <path value="$PROJECT_DIR$/vendor/trendyminds/statamic-palette" />
+      <path value="$PROJECT_DIR$/vendor/alt-design/alt-seo" />
+      <path value="$PROJECT_DIR$/vendor/alt-design/alt-redirect" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -191,7 +223,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.laravel-idea.update-module-directories": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/justinr/Documents/htdocs/joeyryanandtheinks/resources/views/sets",
+    "last_opened_file_path": "/Users/justinr/Documents/htdocs/joeyryanandtheinks/resources/views",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -204,6 +236,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/sets" />
     </key>
   </component>
@@ -243,7 +276,9 @@
       <workItem from="1712934054086" duration="1088000" />
       <workItem from="1712935259083" duration="201000" />
       <workItem from="1712975612335" duration="10765000" />
-      <workItem from="1713218450507" duration="4700000" />
+      <workItem from="1713218450507" duration="5333000" />
+      <workItem from="1713287249048" duration="1765000" />
+      <workItem from="1713294890207" duration="9447000" />
     </task>
     <task id="LOCAL-00001" summary="local env setup">
       <option name="closed" value="true" />
@@ -341,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713236957610</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Media text image grid">
+      <option name="closed" value="true" />
+      <created>1713276704051</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713276704051</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +411,7 @@
     <MESSAGE value="Album module finalized + footer layout desktop" />
     <MESSAGE value="Media text pattern" />
     <MESSAGE value="Palette addon and media text fieldset styles component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Palette addon and media text fieldset styles component" />
+    <MESSAGE value="Media text image grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Media text image grid" />
   </component>
 </project>

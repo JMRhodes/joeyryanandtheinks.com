@@ -3,8 +3,17 @@ id: c1cd0de8-d866-4dd1-8f81-426e7ec70942
 blueprint: page
 title: Home
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713235906
+updated_at: 1713298110
 content:
+  -
+    type: set
+    attrs:
+      id: lv2tfodu
+      values:
+        type: hero
+        headline: 'Joey Ryan & The Inks'
+        description: 'Lorem ipsum dolor sit amet, ipsum, dui nibh ut risus et tristique non.'
+        background_image: jrinks_press_photo-1400x933.jpg
   -
     type: set
     attrs:

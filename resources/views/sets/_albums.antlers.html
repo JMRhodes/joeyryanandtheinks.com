@@ -1,0 +1,38 @@
+<section class="max-w-7xl px-4 m-auto">
+    <div
+        class="grid auto-cols-auto m-auto justify-center relative py-[125px] overflow-hidden border-b border-muted-700">
+        <h2 class="text-h2 uppercase text-secondary font-black mb-5 col-span-12 col-start-2 opacity-0 translate-y-[-20%]"
+            data-animate="to:opacity-1|yPercent-20|scrollTrigger.trigger-[&]|scrollTrigger.start-[top_bottom]">
+            {{headline}}
+        </h2>
+
+        <div class="mb-5 col-span-3 col-start-2 opacity-0 translate-y-[-10%]"
+             data-animate="to:opacity-1|yPercent-10|scrollTrigger.trigger-[&]|scrollTrigger.start-[top_bottom]">
+            <p>{{description}}</p>
+        </div>
+        {{if albums}}
+            <div class="col-span-10 col-start-2 mb-8 py-8 rounded-2xl opacity-0 translate-y-[-2%]"
+                 data-animate="to:opacity-1|yPercent-2|scrollTrigger.trigger-[&]|scrollTrigger.start-[top_bottom]">
+                <div class="grid gap-6 grid-cols-4">
+                    {{ albums }}
+                    {{ partial src="parts/_album-vertical" }}
+                    {{ /albums }}
+                </div>
+            </div>
+        {{ endif }}
+
+        <div class="col-span-10 col-start-2 text-center opacity-0 translate-y-[-10%]"
+             data-animate="to:opacity-1|yPercent-10|scrollTrigger.trigger-[&]|scrollTrigger.start-[top_bottom]">
+            {{if call_to_action}}
+                <a class="button" href="{{ call_to_action }}">See Albums</a>
+            {{ endif }}
+        </div>
+
+        <div
+            class="text-big uppercase font-black text-center w-full text-muted-700 z-[-1] absolute bottom-[-4%] opacity-0 translate-y-[-10%]"
+            data-animate="to:opacity-1|scrollTrigger.trigger-[&]|scrollTrigger.start-[top_bottom]">
+            {{ big_text }}
+        </div>
+        <div class=" 1-full h-[1px]"></div>
+    </div>
+</section>

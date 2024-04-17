@@ -1,5 +1,5 @@
 title: Albums
-template: default
+template: single-album
 layout: layout
 revisions: false
 route: '/album/{{slug}}'

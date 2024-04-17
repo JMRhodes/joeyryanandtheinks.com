@@ -2,11 +2,13 @@
 id: 0a3b5279-6513-41b7-a9f6-1ff625d358b3
 blueprint: album
 title: 'Well, Here We Are Then'
-image:
-  - cover-art/wellherewearethen.jpg
+image: cover-art/wellherewearethen.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1712979475
+updated_at: 1713302819
 release_year: 2009
+spotify:
+  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0ARg1X88TCOJs6qd6w1Q8i?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+  mode: htmlmixed
 content:
   -
     type: paragraph

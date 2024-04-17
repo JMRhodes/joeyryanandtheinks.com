@@ -69,6 +69,13 @@ tabs:
                       fields:
                         -
                           import: album_cards
+                    hero:
+                      display: Hero
+                      instructions: null
+                      icon: media-image-photo-focus-frame
+                      fields:
+                        -
+                          import: hero
                     media_text:
                       display: 'Media Text'
                       instructions: null
