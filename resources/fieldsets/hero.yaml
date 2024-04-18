@@ -4,23 +4,49 @@ fields:
     handle: headline
     field: album_cards.headline
   -
+    handle: markdown_field
+    field:
+      restrict: false
+      buttons:
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - quote
+        - link
+        - image
+        - table
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      heading_anchors: false
+      smartypants: false
+      table_of_contents: false
+      antlers: false
+      type: markdown
+      display: 'Markdown Field'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
     handle: description
     field: album_cards.description
   -
     handle: call_to_action
     field: album_cards.call_to_action
   -
-    handle: background_image
+    handle: gallery
     field:
-      max_files: 1
-      mode: grid
+      mode: list
       container: assets
       restrict: false
       allow_uploads: true
       show_filename: true
       show_set_alt: true
       type: assets
-      display: 'Background Image'
+      display: Gallery
       listable: hidden
       instructions_position: above
       visibility: visible

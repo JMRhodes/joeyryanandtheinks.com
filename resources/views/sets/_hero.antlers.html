@@ -1,13 +1,24 @@
-<section class="hero relative"
-         style="background: url({{ background_image:url }}) no-repeat center top/cover;">
+<section class="max-w-7xl px-4 m-auto ">
+{{#     style="background: url({{ background_image:url }}) no-repeat center top/cover;" #}}
 
-    <div class="hero__content relative max-w-7xl px-4 m-auto py-[340px] text-center z-10">
-        <h1 class="text-display font-bold mb-8">
-            {{ headline }}
+    <div class="grid grid-cols-6 grid-rows-2 gap-8 mb-12 uppercase relative py-16 text-left z-10">
+        <h1 class="text-display col-span-3 col-start-1 row-span-3 row-start-1">
+            {{ markdown_field | markdown }}
         </h1>
 
-        <p>{{ description }}</p>
+        <div class="col-start-4 col-span-3 row-span-1 row-start-3">
+            <p>{{ description }}</p>
+        </div>
     </div>
 
-    <div class="hero__bg"></div>
+    <div class="grid grid-cols-3 gap-8">
+        <div class="col-span-1">
+        {{ heroicon:outline:arrow-long-down class="w-36" }}
+        </div>
+        <div class="col-start-2 col-span-2">
+            {{ gallery }}
+                <img class="w-full mb-4" src="{{ glide:url height="200" width="600" fit="crop-50-15" q="75" fm="webp" }}" alt="{{ alt }}"/>
+            {{ /gallery }}
+        </div>
+    </div>
 </section>

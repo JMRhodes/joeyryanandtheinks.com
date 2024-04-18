@@ -4,20 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="Add-ons, single album, live refresh">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/header.antlers.html" afterDir="false" />
+    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="Album content and tags">
+      <change beforePath="$PROJECT_DIR$/.idea/blade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/statamic/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/statamic/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/statamic/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/statamic/system.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/album.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/album/dennis-lane.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/dennis-lane.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/album/pause.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/pause.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/album/well-here-we-are-then.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/well-here-we-are-then.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/album/album.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/album/album.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/assets/site-850e30f8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fieldsets/hero.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fieldsets/hero.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/single-album.antlers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/parts/_album-vertical.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/parts/_album-vertical.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sets/_albums.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/_albums.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sets/_hero.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/_hero.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sets/_media_text.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/_media_text.antlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/justin.m.rhodes@gmail.com.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/justin.m.rhodes@gmail.com.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,6 +192,9 @@
       <path value="$PROJECT_DIR$/vendor/trendyminds/statamic-palette" />
       <path value="$PROJECT_DIR$/vendor/alt-design/alt-seo" />
       <path value="$PROJECT_DIR$/vendor/alt-design/alt-redirect" />
+      <path value="$PROJECT_DIR$/vendor/stefangalescu/statamic-heroicons" />
+      <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-heroicons" />
+      <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-icons" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -262,7 +270,7 @@
       <workItem from="1713218450507" duration="5333000" />
       <workItem from="1713287249048" duration="1765000" />
       <workItem from="1713294890207" duration="15201000" />
-      <workItem from="1713385523344" duration="852000" />
+      <workItem from="1713385523344" duration="5332000" />
     </task>
     <task id="LOCAL-00001" summary="local env setup">
       <option name="closed" value="true" />
@@ -376,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713318527337</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Album content and tags">
+      <option name="closed" value="true" />
+      <created>1713386384806</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713386384806</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,6 +421,7 @@
     <MESSAGE value="Palette addon and media text fieldset styles component" />
     <MESSAGE value="Media text image grid" />
     <MESSAGE value="Add-ons, single album, live refresh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add-ons, single album, live refresh" />
+    <MESSAGE value="Album content and tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Album content and tags" />
   </component>
 </project>

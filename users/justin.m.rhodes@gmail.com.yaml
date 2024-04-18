@@ -54,3 +54,11 @@ preferences:
           'content::collections': '@hide'
           'content::assets': '@inherit'
           'content::navigation': '@inherit'
+          'content::taxonomies': '@inherit'
+          'content::globals': '@hide'
+      site_settings:
+        action: '@create'
+        display: 'Site Settings'
+        items:
+          'content::globals::header': '@move'
+          'content::globals::footer': '@move'

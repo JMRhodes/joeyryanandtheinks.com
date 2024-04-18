@@ -1,0 +1,24 @@
+<header class="max-w-7xl px-4 py-6 m-auto grid grid-cols-10 border-b-muted-800 border-b-2">
+    <div class="logo col-start-1 col-span-2 grid items-center">
+        {{ svg :src="header:site_logo:url" class="h-3 w-auto fill-muted-800" }}
+    </div>
+
+        <ul class="col-start-9 col-span-1 text-right">
+            {{ nav:primary }}
+            <li class="block text-sm uppercase leading-snug">
+                <a href="{{ url }}" title="{{ title }}" target="_blank">
+                {{ title }}
+                </a>
+            </li>
+            {{ /nav:primary }}
+        </ul>
+        <ul class="col-start-10 col-span-1 text-right">
+            {{ nav:secondary }}
+                <li class="block text-sm uppercase leading-snug">
+                    <a href="{{ url }}" title="{{ title }}" target="_blank">
+                        {{ title }}
+                    </a>
+                </li>
+            {{ /nav:secondary }}
+        </ul>
+</header>

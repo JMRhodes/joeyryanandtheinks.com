@@ -1,0 +1,9 @@
+tree:
+  -
+    id: b665069a-efdb-4ba2-99da-a25b4e7a59d0
+    title: Albums
+    url: '#albums'
+  -
+    id: 415939c3-d16c-498a-957e-2ec6e95bc6ee
+    title: About
+    url: '#about'

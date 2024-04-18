@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b134d82be252cb754dc9578d53389dec",
+    "content-hash": "c8549c9accb03e5ca29814b031daafa7",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -160,6 +160,156 @@
                 "source": "https://github.com/alt-design/Alt-SEO-Addon/tree/v1.1.2"
             },
             "time": "2024-04-09T12:12:33+00:00"
+        },
+        {
+            "name": "blade-ui-kit/blade-heroicons",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blade-ui-kit/blade-heroicons.git",
+                "reference": "a265dbcf2a098121aad05752d0bba9f59022e4ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blade-ui-kit/blade-heroicons/zipball/a265dbcf2a098121aad05752d0bba9f59022e4ba",
+                "reference": "a265dbcf2a098121aad05752d0bba9f59022e4ba",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.6",
+                "illuminate/support": "^9.0|^10.0|^11.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BladeUI\\Heroicons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
+            "homepage": "https://github.com/blade-ui-kit/blade-heroicons",
+            "keywords": [
+                "Heroicons",
+                "blade",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/blade-ui-kit/blade-heroicons/issues",
+                "source": "https://github.com/blade-ui-kit/blade-heroicons/tree/2.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/driesvints",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.paypal.com/paypalme/driesvints",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2024-02-07T16:33:46+00:00"
+        },
+        {
+            "name": "blade-ui-kit/blade-icons",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blade-ui-kit/blade-icons.git",
+                "reference": "89660d93f9897d231e9113ba203cd17f4c5efade"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blade-ui-kit/blade-icons/zipball/89660d93f9897d231e9113ba203cd17f4c5efade",
+                "reference": "89660d93f9897d231e9113ba203cd17f4c5efade",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^8.0|^9.0|^10.0|^11.0",
+                "illuminate/filesystem": "^8.0|^9.0|^10.0|^11.0",
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+                "illuminate/view": "^8.0|^9.0|^10.0|^11.0",
+                "php": "^7.4|^8.0",
+                "symfony/console": "^5.3|^6.0|^7.0",
+                "symfony/finder": "^5.3|^6.0|^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.5.1",
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^9.0|^10.5|^11.0"
+            },
+            "bin": [
+                "bin/blade-icons-generate"
+            ],
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BladeUI\\Icons\\BladeIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "BladeUI\\Icons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of icons in your Laravel Blade views.",
+            "homepage": "https://github.com/blade-ui-kit/blade-icons",
+            "keywords": [
+                "blade",
+                "icons",
+                "laravel",
+                "svg"
+            ],
+            "support": {
+                "issues": "https://github.com/blade-ui-kit/blade-icons/issues",
+                "source": "https://github.com/blade-ui-kit/blade-icons"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/driesvints",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.paypal.com/paypalme/driesvints",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2024-02-07T16:09:20+00:00"
         },
         {
             "name": "brick/math",
@@ -5356,16 +5506,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v4.56.1",
+            "version": "v4.57.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "06a3a09ee9421479ba148daa26ceb426ecb2fe8c"
+                "reference": "d4e00f96bfa1b6eb2eaefdf0649d826b1f2ba560"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/06a3a09ee9421479ba148daa26ceb426ecb2fe8c",
-                "reference": "06a3a09ee9421479ba148daa26ceb426ecb2fe8c",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/d4e00f96bfa1b6eb2eaefdf0649d826b1f2ba560",
+                "reference": "d4e00f96bfa1b6eb2eaefdf0649d826b1f2ba560",
                 "shasum": ""
             },
             "require": {
@@ -5448,7 +5598,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v4.56.1"
+                "source": "https://github.com/statamic/cms/tree/v4.57.0"
             },
             "funding": [
                 {
@@ -5456,7 +5606,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-09T16:51:26+00:00"
+            "time": "2024-04-17T20:22:09+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -5525,6 +5675,59 @@
                 "source": "https://github.com/statamic/Stringy"
             },
             "time": "2022-05-04T18:41:52+00:00"
+        },
+        {
+            "name": "stefangalescu/statamic-heroicons",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stefangalescu/statamic-heroicons.git",
+                "reference": "759f850ec1d90feeeca43fdd38c27e32ebf8ebf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stefangalescu/statamic-heroicons/zipball/759f850ec1d90feeeca43fdd38c27e32ebf8ebf7",
+                "reference": "759f850ec1d90feeeca43fdd38c27e32ebf8ebf7",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-heroicons": "^2.1",
+                "php": "^8.1 || ^8.2",
+                "statamic/cms": "^3.4 || ^4"
+            },
+            "require-dev": {
+                "facade/ignition-contracts": "^1.0",
+                "laravel/pint": "^1.5",
+                "nunomaduro/collision": "^4.2 || ^5.0 || ^6.1",
+                "orchestra/testbench": "^7.0 || ^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "statamic-heroicons",
+                    "description": ""
+                },
+                "laravel": {
+                    "providers": [
+                        "StefanGalescu\\Heroicons\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "StefanGalescu\\Heroicons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Use and easily customize Heroicons in your Statamic templates",
+            "support": {
+                "issues": "https://github.com/stefangalescu/statamic-heroicons/issues",
+                "source": "https://github.com/stefangalescu/statamic-heroicons/tree/v2.1.1"
+            },
+            "time": "2023-07-09T16:26:10+00:00"
         },
         {
             "name": "symfony/console",

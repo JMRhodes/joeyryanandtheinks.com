@@ -3,7 +3,7 @@ id: c1cd0de8-d866-4dd1-8f81-426e7ec70942
 blueprint: page
 title: Home
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713298110
+updated_at: 1713409385
 content:
   -
     type: set
@@ -11,9 +11,16 @@ content:
       id: lv2tfodu
       values:
         type: hero
-        headline: 'Joey Ryan & The Inks'
-        description: 'Lorem ipsum dolor sit amet, ipsum, dui nibh ut risus et tristique non.'
+        headline: 'Joey Ryan\ & The Inks'
+        description: 'The band’s 4th studio release, finds itself in a space where familiar feels new.'
         background_image: jrinks_press_photo-1400x933.jpg
+        markdown_field: |-
+          Joey
+          Ryan
+          & the inks
+        gallery:
+          - jrinks_press_photo-1400x933.jpg
+          - bwdiag-e1458521134682-1400x745.jpg
   -
     type: set
     attrs:
