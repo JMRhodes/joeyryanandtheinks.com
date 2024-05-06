@@ -4,49 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="tailwind font config. Global header adjustments">
-      <change afterPath="$PROJECT_DIR$/config/statamic/bard_texstyle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/assets/homemade-apple-latin-400-normal-998f34b4.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/assets/homemade-apple-latin-400-normal-bbaa96c7.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/assets/red-hat-display-latin-ext-wght-normal-41c36011.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/assets/red-hat-display-latin-wght-normal-25ea6c91.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/statamic-bard-texstyle/build/assets/addon-7f1f7bb9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/statamic-bard-texstyle/build/assets/addon-832538e6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/statamic-bard-texstyle/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/index.antlers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/page.antlers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/sets/_video_gallery.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+    <list default="true" id="99206964-bcc4-49f1-8d18-82bbce183817" name="Changes" comment="template structure, album show and index design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/album.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/young-afternoon.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/pages.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/pages/home.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/globals/header.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/globals/header.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/trees/collections/pages.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/trees/collections/pages.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/trees/navigation/primary.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/trees/navigation/primary.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/assets/site-9019b867.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/dennis-lane.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/dennis-lane.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/album/pause.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/album/pause.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/album/album.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/album/album.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/blueprints/collections/pages/page.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fieldsets/hero.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fieldsets/hero.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/album/show.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/album/album.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/default.antlers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.antlers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/parts/_album-vertical.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/parts/_album-vertical.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sets/_albums.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/_albums.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sets/_hero.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/_hero.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sets/_media_text.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sets/_media_text.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/album/album.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/album/album.antlers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +271,7 @@
       <workItem from="1714527566961" duration="7000" />
       <workItem from="1714597515918" duration="2067000" />
       <workItem from="1714698737957" duration="25000" />
-      <workItem from="1714958386517" duration="2716000" />
+      <workItem from="1714958386517" duration="3894000" />
     </task>
     <task id="LOCAL-00001" summary="local env setup">
       <option name="closed" value="true" />
@@ -438,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713409738723</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="template structure, album show and index design">
+      <option name="closed" value="true" />
+      <created>1714961220557</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714961220557</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,6 +441,7 @@
     <MESSAGE value="Album content and tags" />
     <MESSAGE value="white out" />
     <MESSAGE value="tailwind font config. Global header adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="tailwind font config. Global header adjustments" />
+    <MESSAGE value="template structure, album show and index design" />
+    <option name="LAST_COMMIT_MESSAGE" value="template structure, album show and index design" />
   </component>
 </project>

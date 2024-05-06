@@ -4,16 +4,31 @@ blueprint: album
 title: 'Well, Here We Are Then'
 image: cover-art/wellherewearethen.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713322720
+updated_at: 1714962353
 release_year: 2009
 spotify:
-  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0ARg1X88TCOJs6qd6w1Q8i?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0ARg1X88TCOJs6qd6w1Q8i?utm_source=generator&theme=0" width="100%" height="860" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
   mode: htmlmixed
 meta: |-
   Recorded December, 2009
   Recorded and produced by Joey Ryan & The Inks
   Mixed by Ryan Mach
   Mastered by Greg Reierson (Rare Form Mastering)
+links:
+  -
+    id: lvuc9ysa
+    label: Spotify
+    url: 'https://open.spotify.com/album/4ea5vDsSxIhctuWXSRBEvK?t=6ns5mpgf1tcjgt4edn2npaiaj5&tto=21b3b4b4'
+    new_window: true
+  -
+    id: lvucaw0x
+    label: YouTube
+    url: 'https://www.youtube.com/playlist?list=OLAK5uy_nrHdelnafFB3IAN4YdQScnyiyZpqBPToY'
+    new_window: true
+tags:
+  - indie-pop
+  - retro
+  - rock
 content:
   -
     type: paragraph

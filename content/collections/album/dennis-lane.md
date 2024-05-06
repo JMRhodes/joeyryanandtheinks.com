@@ -4,16 +4,31 @@ blueprint: album
 title: 'Dennis Lane'
 image: cover-art/a2742499165_10.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713322706
+updated_at: 1714962256
 release_year: 2011
 spotify:
-  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/33LPBWyq1koWNlHRuRfPWX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/33LPBWyq1koWNlHRuRfPWX?utm_source=generator&theme=0" width="100%" height="800" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
   mode: htmlmixed
 meta: |-
   Recorded July, 2011
   Recorded and produced by Joey Ryan & The Inks
   Mixed by Ryan Mach
   Mastered by Dave Gardner (Magneto Mastering)
+links:
+  -
+    id: lvuc786c
+    label: Spotify
+    url: 'https://open.spotify.com/album/33LPBWyq1koWNlHRuRfPWX'
+    new_window: true
+  -
+    id: lvuc78rc
+    label: YouTube
+    url: 'https://www.youtube.com/playlist?list=OLAK5uy_lksuVD3QjLGvkP4p43LqPZ-B_oP3JMCow'
+    new_window: true
+tags:
+  - indie-pop
+  - retro
+  - rock
 content:
   -
     type: paragraph

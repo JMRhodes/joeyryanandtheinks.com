@@ -140,16 +140,6 @@ tabs:
               hide_display: false
               max_files: 1
           -
-            handle: link_spotify
-            field:
-              type: link
-              display: Spotify
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: false
-              hide_display: false
-          -
             handle: tags
             field:
               type: terms

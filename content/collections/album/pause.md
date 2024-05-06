@@ -4,16 +4,31 @@ blueprint: album
 title: '[pause.]'
 image: cover-art/a3818796313_16.jpg
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713322689
+updated_at: 1714961995
 release_year: 2013
 spotify:
-  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0CgUgJEg03tMQNpK7SMrPG?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+  code: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0CgUgJEg03tMQNpK7SMrPG?utm_source=generator&theme=0" width="100%" height="560" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
   mode: htmlmixed
 meta: |-
   Released April, 2013
   Recorded and produced by Joey Ryan & The Inks
   Mixed by Ryan Mach
   Mastered by Dave Gardner (Magneto Mastering)
+tags:
+  - retro
+  - indie-pop
+  - rock
+links:
+  -
+    id: lvuc1p90
+    label: Spotify
+    url: 'https://open.spotify.com/album/0cQb5YNKuII2IbuvqAJG6s'
+    new_window: true
+  -
+    id: lvuc1pq1
+    label: YouTube
+    url: 'https://www.youtube.com/channel/UCL20OkIS-cpWX6n3IGQfMYw'
+    new_window: true
 content:
   -
     type: paragraph
