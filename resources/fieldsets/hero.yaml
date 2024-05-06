@@ -1,30 +1,32 @@
 title: Hero
 fields:
   -
-    handle: headline
-    field: album_cards.headline
-  -
-    handle: markdown_field
+    handle: heading
     field:
-      restrict: false
       buttons:
         - bold
         - italic
-        - unorderedlist
-        - orderedlist
-        - quote
-        - link
-        - image
-        - table
-      automatic_line_breaks: true
-      automatic_links: false
-      escape_markup: false
-      heading_anchors: false
-      smartypants: false
-      table_of_contents: false
+        - brand
+      smart_typography: false
+      save_html: true
+      inline: break
+      toolbar_mode: fixed
+      reading_time: false
+      word_count: false
+      fullscreen: false
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      remove_empty_nodes: false
       antlers: false
-      type: markdown
-      display: 'Markdown Field'
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      always_show_set_button: false
+      collapse: false
+      previews: true
+      type: bard
+      display: Heading
       listable: hidden
       instructions_position: above
       visibility: visible

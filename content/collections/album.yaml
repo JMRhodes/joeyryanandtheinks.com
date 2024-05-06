@@ -1,10 +1,11 @@
 title: Albums
-template: album/show
+template: '@blueprint'
 layout: layout
+mount: 99e8d0b2-c8ee-419c-b370-bf22a90128dd
 taxonomies:
   - tags
 revisions: false
-route: '/album/{{slug}}'
+route: '/{mount}/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
@@ -13,6 +14,10 @@ preview_targets:
   -
     label: Entry
     url: '{permalink}'
+    refresh: true
+  -
+    label: Index
+    url: '{mount}'
     refresh: true
 structure:
   root: false

@@ -1,21 +1,21 @@
 <footer class="footer max-w-7xl px-4 m-auto">
-    <div class="py-16 grid grid-cols-2 gap-5 text-base border-b border-muted-300">
-        <div class="text-left">
+    <div class="py-16 grid grid-cols-1 md:grid-cols-2 gap-5 text-base border-b border-muted-700">
+        <div class="text-center md:text-left mb-12 md:mb-0">
             <div class="logo mb-8">
-                {{ svg :src="footer:footer_logo:url" class="fill-muted-800 h-5 w-auto" }}
+                {{ svg :src="footer:footer_logo:url" class="fill-white w-full h-auto md:w-auto" }}
             </div>
             {{ footer:footer_excerpt }}
         </div>
-        <div class="text-right font-bold text-h4">
+        <div class="text-center md:text-right font-bold text-h4">
             <h4 class="uppercase">
                 Check us out
             </h4>
             {{ footer:footer_nav }}
-            <ul class="grid gap-8 grid-flow-col justify-end py-4">
+            <ul class="grid gap-8 grid-flow-col justify-center md:justify-end py-4">
                 {{ nav :handle="handle" }}
                     <li class=" col-auto">
-                        <a href="{{ url }}" class="h-[28px] w-[28px] fill-muted-800" title="{{ title }}" target="_blank">
-                            {{ svg :src="icon" class="fill-muted-800 w-8 h-8" }}
+                        <a href="{{ url }}" class="h-[28px] w-[28px] fill-white" title="{{ title }}" target="_blank">
+                            {{ svg :src="icon" class="fill-white w-8 h-8" }}
                         </a>
                     </li>
                 {{ /nav }}

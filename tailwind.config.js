@@ -23,7 +23,8 @@ export default {
         },
         extend: {
             colors: {
-                secondary: "#e57259",
+                primary: "#ff5935",
+                secondary: "#fcb01e",
                 muted: {
                     800: "#1b1b1f",
                     700: "#37373d",
@@ -35,7 +36,8 @@ export default {
                 }
             },
             fontFamily: {
-                red_hat: ['Red Hat Display', 'sans-serif'],
+                red_hat: ['Red Hat Display Variable', 'sans-serif'],
+                homemade: ['Homemade Apple', 'cursive'],
             },
         },
     },

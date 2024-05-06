@@ -1,0 +1,25 @@
+title: Videos
+fields:
+  -
+    handle: headline
+    field: album_cards.headline
+  -
+    handle: big_text
+    field: album_cards.big_text
+  -
+    handle: videos
+    field:
+      mode: default
+      create: true
+      collections:
+        - videos
+      type: entries
+      display: Videos
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: call_to_action
+    field: album_cards.call_to_action

@@ -3,7 +3,7 @@ id: c1cd0de8-d866-4dd1-8f81-426e7ec70942
 blueprint: page
 title: Home
 updated_by: f950bfa3-14cc-4364-8541-2df60b084b8b
-updated_at: 1713409385
+updated_at: 1713751969
 content:
   -
     type: set
@@ -11,16 +11,34 @@ content:
       id: lv2tfodu
       values:
         type: hero
-        headline: 'Joey Ryan\ & The Inks'
+        headline:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Joey Ryan'
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: '<span>&</span> the inks'
         description: 'The band’s 4th studio release, finds itself in a space where familiar feels new.'
         background_image: jrinks_press_photo-1400x933.jpg
         markdown_field: |-
           Joey
           Ryan
-          & the inks
+          [&] the inks
         gallery:
           - jrinks_press_photo-1400x933.jpg
           - bwdiag-e1458521134682-1400x745.jpg
+        heading: 'Joey Ryan<br><span class="text-secondary font-homemade">&amp;</span> The Inks'
+        bard_field: 'Joey Ryan<br><span class="font-homemade">&amp;</span> The Inks'
   -
     type: set
     attrs:
@@ -39,7 +57,7 @@ content:
   -
     type: set
     attrs:
-      id: lv1hwsj5
+      id: lv5qromh
       values:
         type: media_text
         headline: 'About the band'
@@ -52,4 +70,13 @@ content:
         media:
           primary: jrinks_press_photo-1400x933.jpg
           secondary: bwdiag-e1458521134682-1400x745.jpg
+  -
+    type: set
+    attrs:
+      id: lvabnq2a
+      values:
+        type: video_gallery
+        headline: 'Music Videos'
+        big_text: VIDEOS
+        call_to_action: /videos
 ---

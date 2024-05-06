@@ -170,6 +170,7 @@
       <path value="$PROJECT_DIR$/vendor/stefangalescu/statamic-heroicons" />
       <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-heroicons" />
       <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-icons" />
+      <path value="$PROJECT_DIR$/vendor/jacksleight/statamic-bard-texstyle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

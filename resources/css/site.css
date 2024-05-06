@@ -1,9 +1,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
-/* This is all you. */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import '@fontsource/homemade-apple';
+@import '@fontsource-variable/red-hat-display';
 
 [x-cloak] {
     display: none !important;
@@ -27,18 +26,6 @@
     transform: scale(0.94);
     color: #1b1b1f;
 }
-
-/*.hero__bg {*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    top: 0;*/
-/*    background: rgb(131, 58, 180);*/
-/*    background: linear-gradient(0deg, rgba(131, 58, 180, 1) 0%, rgba(166, 50, 137, 1) 0%, rgba(252, 176, 69, 1) 100%);*/
-/*    opacity: 0.75;*/
-/*    z-index: 1;*/
-/*}*/
 
 .markdown p {
     margin-bottom: 1.5rem;

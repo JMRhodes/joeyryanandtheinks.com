@@ -1,6 +1,22 @@
 {
+  "node_modules/@fontsource-variable/red-hat-display/files/red-hat-display-latin-ext-wght-normal.woff2": {
+    "file": "assets/red-hat-display-latin-ext-wght-normal-41c36011.woff2",
+    "src": "node_modules/@fontsource-variable/red-hat-display/files/red-hat-display-latin-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/red-hat-display/files/red-hat-display-latin-wght-normal.woff2": {
+    "file": "assets/red-hat-display-latin-wght-normal-25ea6c91.woff2",
+    "src": "node_modules/@fontsource-variable/red-hat-display/files/red-hat-display-latin-wght-normal.woff2"
+  },
+  "node_modules/@fontsource/homemade-apple/files/homemade-apple-latin-400-normal.woff": {
+    "file": "assets/homemade-apple-latin-400-normal-998f34b4.woff",
+    "src": "node_modules/@fontsource/homemade-apple/files/homemade-apple-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/homemade-apple/files/homemade-apple-latin-400-normal.woff2": {
+    "file": "assets/homemade-apple-latin-400-normal-bbaa96c7.woff2",
+    "src": "node_modules/@fontsource/homemade-apple/files/homemade-apple-latin-400-normal.woff2"
+  },
   "resources/css/site.css": {
-    "file": "assets/site-9019b867.css",
+    "file": "assets/site-ec082cd0.css",
     "isEntry": true,
     "src": "resources/css/site.css"
   },

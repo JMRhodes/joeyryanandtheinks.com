@@ -1,0 +1,25 @@
+<section class="max-w-7xl px-4 m-auto">
+    <div
+        class="grid auto-cols-auto m-auto justify-center relative py-[125px] overflow-hidden border-b border-muted-500">
+        <h2 class="text-h2 uppercase text-secondary mb-5 col-span-12 col-start-2 opacity-0 translate-y-[-20%]"
+            data-animate="to:opacity-1|yPercent-20|scrollTrigger.trigger-[&]|scrollTrigger.start-[top_bottom]">
+            {{title}}
+        </h2>
+
+        <div class="col-span-10 col-start-2 mb-8 py-8 rounded-2xl opacity-0 translate-y-[-2%]"
+             data-animate="to:opacity-1|yPercent-2|scrollTrigger.trigger-[&]|scrollTrigger.start-[top_bottom]">
+            <div class="grid gap-6 grid-cols-4">
+                {{ collection :from="mount" }}
+                {{ partial src="parts/_album-vertical" }}
+                {{ /collection }}
+            </div>
+        </div>
+
+        <div
+            class="text-big uppercase font-black text-center w-full text-muted-700 z-[-1] absolute bottom-[-4%] opacity-0 translate-y-[-10%]"
+            data-animate="to:opacity-1|scrollTrigger.trigger-[&]|scrollTrigger.start-[top_bottom]">
+            ALBUMS
+        </div>
+        <div class="1-full h-[1px] border-b-muted-200"></div>
+    </div>
+</section>

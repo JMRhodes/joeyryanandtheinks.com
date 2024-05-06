@@ -2,8 +2,18 @@ tree:
   -
     id: b665069a-efdb-4ba2-99da-a25b4e7a59d0
     title: Albums
-    url: '#albums'
+    url: /albums
+  -
+    id: 7643b19b-2f80-43bf-9ecc-a9994b3510e9
+    title: Videos
+    url: '#videos'
+    data:
+      position: right
   -
     id: 415939c3-d16c-498a-957e-2ec6e95bc6ee
     title: About
     url: '#about'
+  -
+    id: 0dfc8702-daa4-43e8-a8f2-9bef0a5be901
+    title: Contact
+    url: '#contact'

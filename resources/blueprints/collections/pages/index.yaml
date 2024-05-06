@@ -1,4 +1,4 @@
-title: Page
+title: Index
 tabs:
   main:
     display: Main
@@ -12,84 +12,6 @@ tabs:
               required: true
               validate:
                 - required
-          -
-            handle: content
-            field:
-              buttons:
-                - h2
-                - h3
-                - h4
-                - bold
-                - italic
-                - underline
-                - small
-                - unorderedlist
-                - orderedlist
-                - quote
-                - image
-                - code
-                - alignleft
-                - aligncenter
-                - alignright
-              smart_typography: false
-              save_html: false
-              inline: false
-              toolbar_mode: fixed
-              reading_time: false
-              word_count: false
-              fullscreen: true
-              allow_source: true
-              enable_input_rules: true
-              enable_paste_rules: true
-              remove_empty_nodes: true
-              antlers: false
-              link_noopener: false
-              link_noreferrer: false
-              target_blank: false
-              always_show_set_button: false
-              collapse: false
-              previews: true
-              type: bard
-              display: Content
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              sets:
-                modules:
-                  display: Modules
-                  instructions: null
-                  icon: null
-                  sets:
-                    albums:
-                      display: 'Album Cards'
-                      instructions: null
-                      icon: file-content-list
-                      fields:
-                        -
-                          import: album_cards
-                    hero:
-                      display: Hero
-                      instructions: null
-                      icon: media-image-photo-focus-frame
-                      fields:
-                        -
-                          import: hero
-                    media_text:
-                      display: 'Media Text'
-                      instructions: null
-                      icon: media-news-paper
-                      fields:
-                        -
-                          import: media_text
-                    video_gallery:
-                      display: 'Video Gallery'
-                      instructions: null
-                      icon: media-webcam-video
-                      fields:
-                        -
-                          import: videos
   sidebar:
     display: Sidebar
     sections:

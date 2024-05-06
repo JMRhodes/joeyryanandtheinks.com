@@ -57,6 +57,8 @@ tabs:
         instructions: 'Album meta content.'
         fields:
           -
+            import: links
+          -
             handle: meta
             field:
               antlers: false
@@ -147,6 +149,14 @@ tabs:
               visibility: visible
               replicator_preview: false
               hide_display: false
+          -
+            handle: tags
+            field:
+              type: terms
+              taxonomies:
+                - tags
+              display: Tags
+              mode: select
   alt_seo:
     display: 'Alt SEO'
     sections:
