@@ -163,6 +163,7 @@
       <path value="$PROJECT_DIR$/vendor/statamic/cms" />
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/vendor/rhukster/dom-sanitizer" />
+      <path value="$PROJECT_DIR$/vendor/statamic/ssg" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />

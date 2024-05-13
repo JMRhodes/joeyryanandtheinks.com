@@ -1,17 +1,18 @@
-<header class="max-w-7xl px-4 py-6 m-auto grid grid-cols-12 bg-muted-800">
+<header class="w-full m-auto py-6 lg:py-12 bg-muted-800">
+    {{ partial:components/container class="grid grid-cols-12" }}
     <div class="logo col-start-1 col-span-3 grid items-center">
         <a href="{{ site:url }}">
-            {{ svg :src="header:site_logo:url" class="h-20 md:h-16 w-auto fill-white" }}
+            {{ svg :src="header:site_logo:url" class="h-20 md:h-16 w-auto
+            fill-white" }}
         </a>
     </div>
 
     <ul class="col-start-10 col-span-3 grid grid-cols-2 text-right">
         {{ nav:primary }}
-            <li class="block col-span-2 md:col-span-1 text-sm text-white uppercase">
-                <a href="{{ url }}" title="{{ title }}">
-                    {{ title }}
-                </a>
-            </li>
+        <li class="block col-span-2 md:col-span-1 text-sm text-white uppercase">
+            <a href="{{ url }}" title="{{ title }}"> {{ title }} </a>
+        </li>
         {{ /nav:primary }}
     </ul>
+    {{ /partial:components/container }}
 </header>

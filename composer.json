@@ -10,16 +10,13 @@
     "type": "project",
     "require": {
         "php": "^8.2",
-        "alt-design/alt-redirect": "^1.2",
-        "alt-design/alt-seo": "^1.1",
         "guzzlehttp/guzzle": "^7.2",
         "jacksleight/statamic-bard-texstyle": "^3.1",
         "laravel/framework": "^10.8",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
-        "statamic/cms": "^4.0",
-        "stefangalescu/statamic-heroicons": "^2.1",
-        "trendyminds/statamic-palette": "^1.0"
+        "statamic/cms": "^5.0",
+        "statamic/ssg": "^3.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",

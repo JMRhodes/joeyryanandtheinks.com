@@ -1,0 +1,17 @@
+{{# Panel: Hero #}}
+<section id="hero">
+    {{ partial:components/container }}
+    <div class="hero h-[65vh] relative rounded-xl overflow-hidden">
+        {{ if image }}
+        <div
+            class="blackground absolute left-0 right-0 top-0 bottom-0 z-0"
+            style="background:url({{image:url}}) no-repeat center center/cover"
+        ></div>
+        {{ /if }}
+        <div class="content relative z-10">
+            {{ partial:components/heading size="h1" :label="headline"
+            class="mb-8 md:mb-12" }}
+        </div>
+    </div>
+    {{ /partial:components/container }}
+</section>
