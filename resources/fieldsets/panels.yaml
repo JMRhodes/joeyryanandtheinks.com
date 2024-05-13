@@ -1,0 +1,43 @@
+title: Panels
+fields:
+  -
+    handle: panels
+    field:
+      collapse: true
+      type: replicator
+      display: Panels
+      sets:
+        content:
+          display: Content
+          icon: file-content-list
+          sets:
+            new_set:
+              display: 'New Set'
+              fields: {  }
+        media:
+          display: Media
+          icon: media-news-paper
+          sets:
+            hero:
+              display: Hero
+              icon: text-formatting-image-top
+              fields:
+                -
+                  handle: headline
+                  field:
+                    type: text
+                    display: Headline
+                -
+                  handle: image
+                  field:
+                    max_files: 1
+                    mode: grid
+                    type: assets
+                    display: Image
+        relational:
+          display: Relational
+          icon: addon-boxes-stack
+          sets:
+            new_set:
+              display: 'New Set'
+              fields: {  }
